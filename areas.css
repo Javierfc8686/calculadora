@@ -1,0 +1,71 @@
+.displayI{
+    width: 22rem;
+    height: 4rem;
+    margin-top: .7rem;
+    text-align: end;
+    font-size: 2rem;
+    font-weight: bold;
+    overflow-x: auto;
+    border: 1px solid gray;
+    border-radius: .4rem ;
+}
+
+.botones {
+    grid-area: botones;
+}
+#cero {
+    grid-area: cero;
+}
+#uno {
+    grid-area: uno;
+}
+#dos {
+    grid-area: dos;
+}
+#tres {
+    grid-area: tres;
+}
+#cuatro {
+    grid-area: cuatro;
+}
+#cinco {
+    grid-area: cinco;
+}
+#seis {
+    grid-area: seis;
+}
+#siete {
+    grid-area: siete;
+}
+#ocho {
+    grid-area: ocho;
+}
+#nueve {
+    grid-area: nueve;
+}
+#borrar {
+    grid-area: borrar;
+    background: red;
+}
+#igual {
+    background: #4285f4;
+    grid-area: igual;
+}
+#sumar {
+    grid-area: sumar;
+    background: #85929E;
+}
+#restar {
+    grid-area: restar;
+    background: #85929E;
+}
+#multiplicar {
+    grid-area: multiplicar;
+    background: #85929E;
+}
+#dividir {
+    grid-area: dividir;
+    background: #85929E;
+}
+
+

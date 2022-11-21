@@ -1,0 +1,48 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0 auto;
+}
+
+html {
+    font-family: sans-serif;
+    font-size: 60%;
+}
+
+body {
+    background: #ffffff ;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.calculadora {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+}
+
+.teclado {
+    display: grid;
+    grid-template-areas:
+    'siete ocho nueve dividir'
+    'cuatro cinco seis multiplicar'
+    'uno dos tres restar'
+    'borrar cero igual sumar';
+}
+
+button {
+    width: 5rem;
+    height: 3rem;
+    margin: 0.3rem;
+    cursor: pointer;
+}
+
+
+
